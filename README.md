@@ -13,3 +13,5 @@ then install the kernel with
 source scripts/kernel.sh 
 
 # 
+
+jupyter labextension install dask-labextension
