@@ -18,7 +18,9 @@ pip install jupyter-server-proxy
 jupyter server extension enable jupyter_server_proxyy
 
 jupyter labextension install @jupyterlab/server-proxy
-jupyter labextension install @jupyterlab/jupyter-server-proxy
+
+
+
 
 jupyter labextension enable --sys-prefix jupyter_server_proxy
 
@@ -29,3 +31,8 @@ jupyter labextension install dask-labextension
 jupyter labextension list
 
 jupyter serverextension disable --sys-prefix server-proxy
+
+# 
+jupyter labextension install @jupyterlab/jupyter-server-proxy
+sudo jupyter lab build
+pip install git+https://github.com/TychonautVII/jupyter-luigi-proxy.git@3205e10

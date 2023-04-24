@@ -13,7 +13,14 @@ def setup_jupyter_luigi():
         'environment': {},
         'launcher_entry': {
             'title': 'jupyter-luigi',
-        }
+        },
+        "port":8082,
+        "command":[
+            "luigid",
+            "--background"
+        ]
+            
+        
     }
 
 if __name__ == "__main__":
