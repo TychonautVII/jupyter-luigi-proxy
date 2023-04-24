@@ -35,4 +35,6 @@ jupyter serverextension disable --sys-prefix server-proxy
 # 
 jupyter labextension install @jupyterlab/jupyter-server-proxy
 sudo jupyter lab build
-pip install git+https://github.com/TychonautVII/jupyter-luigi-proxy.git@3205e10
+pip install git+https://github.com/TychonautVII/jupyter-luigi-proxy.git@2f0616e
+
+https://processing.mdataplatform.com/2e508a37-740b-4337-962f-1fb7dd5615c3_51558_CA_HCBS/jupyter/hub/home

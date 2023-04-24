@@ -17,7 +17,8 @@ def setup_jupyter_luigi():
         "port":8082,
         "command":[
             "luigid",
-            "--background"
+            "--port",
+            "{port}"
         ]
             
         
